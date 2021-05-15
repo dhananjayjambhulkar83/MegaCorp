@@ -5,9 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>MegaCorp</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    
   </head>
   <body>
     <!-- header section starts -->
@@ -27,7 +30,7 @@
           </div>
 
           <div id="burger" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav navbar-right">
+            <ul class="nav navbar-nav navbar-right" id="bgcolor">
               <li class=" blue"><a href="#">HOMEPAGE</a></li>
               <li><a href="#">RIGHT SIDEBAR</a></li>
               <li><a href="#">LEFT SIDEBAR</a></li>
@@ -58,7 +61,7 @@
     <div class="three-section">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 ">
+          <div class="col-md-4 col-sm-4">
             <div class="three">
               <h3>Maecenas luctus lectus</h3>
               <span class="fa fa-apple "></span>
@@ -70,7 +73,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 ">
+          <div class="col-md-4 col-sm-4">
             <div class="three">
               <h3>Etiam rhoncus volutpat</h3>
               <span class="fa fa-rocket"></span>
@@ -82,7 +85,7 @@
             </div>
           </div>
 
-          <div class="col-md-4 ">
+          <div class="col-md-4 col-sm-4">
             <div class="three">
               <h3>Mauris vulputate dolor</h3>
               <span class="fa  fa-cogs"></span>
@@ -103,17 +106,17 @@
     <div class="two-section">
       <div class="container">
         <div class="row">
-          <div class="col-md-9">
+          <div class="col-md-9 left">
             <div class="row">
-              <div class="col-md-12">
+              <div class="col-md-12 left-top">
                 <h2> Praesent maths condimentum </h2>
                 <img src="img/pic01.jpg" alt="">
-                <p>a respon fve M1_, te template freebie by TEMPLATE. Releaced for ire,. under the C
-                  Attrtutun lEense    ur it for whateve -,personal or commercfal,ust give us credit: Check out more of our stuff at our ste
-                  or follow us on LtattlE.
+                <p>a respon fve M1_, te template freebie by <span> TEMPLATE </span>. Releaced for ire,. under the C
+                  Attrtutun lEense    ur it for whateve -,personal or <span>commercfal</span>,ust give us credit: Check out more of our stuff at our ste
+                  or follow us on <span>Twitter</span>.
                  </p>
 
-                 <button>Read More</button>
+                 <button class="my-button twb">Read More</button>
 
                  <hr>
               </div>
@@ -121,132 +124,154 @@
             </div>
 
             <div class="row">
-              <div class="col-md-6">
-                <h2>Tristique eleifend</h2>
-                <p>Donec eo. vivamuf termentum nth augue praeseM
-                  lams at urna congue rutrum °moue dictum. Integer nisi
-                  r rsus. sagatis convallis. rutrum itl. elementum congue.
-                </p>
-                <button class="my-button"> 20012.20.25</button>
-                <p>Et!,. posuere augue</p>
-                <p>Integer nisi duo urns Duvall!, rutrum
-                  congue. mbh. Suspendisse dictum ,rta lectus.</p>
-                <hr>
+              <div class="col-md-6 left-bottom">
+                  <div class="l-b-l">
+                    <h2>Tristique eleifend</h2>
+                    <p>Donec eo. vivamuf termentum nth augue praeseM
+                      lams at urna congue rutrum °moue dictum. Integer nisi
+                      r rsus. sagatis convallis. rutrum itl. elementum congue.
+                    </p>
+                    <button class="my-button number"> 20012.20.25</button>
+                    <span class="extra">Et!,. posuere augue</span>
+                    <p>Integer nisi duo urns Duvall!, rutrum
+                      congue. mbh. Suspendisse dictum ,rta lectus.</p>
+                   <hr>
 
-                <button class="my-button"> 20012.20.25</button>
-                <p>Et!,. posuere augue</p>
-                <p>Integer nisi duo urns Duvall!, rutrum
-                  congue. mbh. Suspendisse dictum ,rta lectus.</p>
+                    <button class="my-button number"> 20012.20.25</button>
+                    <span class="extra">Et!,. posuere augue</span>
+                    <p>Integer nisi duo urns Duvall!, rutrum
+                       congue. mbh. Suspendisse dictum ,rta lectus.</p>
+                   </div>
               </div>
 
-              <div class="col-md-6">
+              <div class="col-md-6 left-r">
+                <hr class="h">
                 <h2>Donec dictum metus</h2>
                 <p>Maoris vulputate dolor zit amet</p>
-                <ul>
-                  <li>alquam lacm.a metus ut elt Suspend.. leculls maur,
-                    nec lorem. Dem. leo, nvamus fermentum non augue
-                    praesent a lacus at urna congue rutrum.
-                  </li>
-                </ul>
+               
+                 <p class="rp">
+                 <span class="fa fa-stop"></span> alquam lacm.a metus ut elt Suspend.. leculls maur,
+                  nec lorem. Dem. leo, nvamus fermentum non augue
+                  praesent a lacus at urna congue rutrum.
+                 </p>
+                 
                 <hr>
 
                 <p>Fume ultrices fringilla maw</p>
-                <ul>
-                  <li>In hac na nazzeplatea Octurnst Nullam r0 ante eget du
-                    vulputate al.quam. Doner VIVarlIUS fermentum nth in
-                    augue praesent a locus at urna congue outrun,
-                  </li>
-                </ul>
+               
+                <p class="rp">
+                  <span class="fa fa-stop"></span> In hac na nazzeplatea Octurnst Nullam r0 ante eget du
+                  vulputate al.quam. Doner VIVarlIUS fermentum nth in
+                  augue praesent a locus at urna congue outrun,
+                </p>
+                
                 <hr>
 
                 <p>Danes dictum metus in m p i en</p>
-                <ul>
-                  <li>Donec leo, names fermentum nth augue praeserk a
-                    locus at urns congue 'ovum. SusPendue an emu cellos n
-                    ems bbendum condunentum.
-                  </li>
-                </ul>
 
+                <p class="rp">
+                  <span class="fa fa-stop"></span> Donec leo, names fermentum nth augue praeserk a
+                  locus at urns congue 'ovum. SusPendue an emu cellos n
+                  ems bbendum condunentum.
+                </p>
+               
+
+                  
               </div>
             </div>
           </div>
 
-          <div class="col-md-3">
+          <div class="col-md-3 right">
             <div class="row">
-              <div class="col-md-6">
-                <h2>Nulla eleifend</h2>
-                <ul>
-                  <li>Maecenas luctus</li>
-                  <hr>
-                  <li>Etam Moncus erat</li>
-                  <hr>
-                  <li>Donee metus sapien</li>
-                  <hr>
-                  <li>Integer quis uma </li>
-                  <hr>
-                  <li>Rom rhoncus erat</li>
-                  <hr>
-                  <li>Donee metus sapien</li>
-                  <hr>
-                  <li>Etam volutpat erat</li>
-                  
-                </ul>
+              <div class="col-md-6 col-sm-6 col-xs-6 l">
+                   <div class="right-l">
+                    <h2>Nulla eleifend</h2>
+                    <ul type="none">
+                      <li> <span class="fa fa-stop"></span> Maecenas luctus</li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span> Etam Moncus erat</li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span> Donee metus sapien</li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span> Integer quis uma </li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span> Rom rhoncus erat</li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span> Donee metus sapien</li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span> Etam volutpat erat</li>
+                      
+                    </ul>
+                   </div>
               </div>
 
-              <div class="col-md-6">
-                <h2>Nulla eleifend</h2>
-                <ul>
-                  <li>Maecenas luctus</li>
-                  <hr>
-                  <li>Etiam Moncus erat</li>
-                  <hr>
-                  <li>Donec metus samen</li>
-                  <hr>
-                  <li>Integer guff. urna</li>
-                  <hr>
-                  <li>Etiam Moncus erat</li>
-                  <hr>
-                  <li>Donec metus sapien</li>
-                  <hr>
-                  <li>Etiam volutpat erat</li>
-                  
-                </ul>
+              <div class="col-md-6 col-sm-6 col-xs-6 r">
+                   <div class="right-r">
+                    <h2>Nulla eleifend</h2>
+                    <ul type="none">
+                      <li> <span class="fa fa-stop"></span> Maecenas luctus</li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span> Etiam Moncus erat</li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span> Donec metus samen</li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span> Integer guff. urna</li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span>Etiam Moncus erat</li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span> Donec metus sapien</li>
+                      <hr>
+                      <li> <span class="fa fa-stop"></span> Etiam volutpat erat</li>
+                      
+                    </ul>
+                   </div>
               </div>
             </div>
 
             <div class="row">
-              <div class="col-md-12">
-                <img src="img/pics07.jpg" alt="">
-                <p>Pellentespue viverra vulputate eum.
-                  Aliquam eratvolutpat. Done leo,..amus
-                  mbh augue praesent congue rutrum.
-                </p>
-                <hr>
-
-                <img src="img/pics08.jpg" alt="">
-                <p>Aliquam lacmo metus utelit.Suspendisse
-                  mauns nec lorem. Donec leo.
-                  vrvamus fermentum augue praeunt
-
-                </p>
-                <hr>
-
-                <img src="img/pics09.jpg" alt="">
-                <p>Suspendisse srtamettellus eros
-                  bibendum condmentum. Donec leo. 
-                  termentum mbM1 augue praeseM a lacus
-                  congue rutmm
-                </p>
-                <hr>
-
-                <img src="img/pics10.jpg" alt="">
-                <p>j,,i Aliquam lam. metusa ut elit.Suspendisse
-                  :.    ‘,    .acus mauis net lorn, °Gn leo.
-                  vivamush fermerntum augue pu..LEnaue LL.LrFrn•
-                </p>
-
-                <button>Read More</button>
-              </div>
+              <div class="right-bottom">
+                <div class="col-md-12 col-sm-6 col-xs-6 sm">
+                  <img src="img/pics07.jpg"  alt="">
+                  <p>Pellentespue viverra vulputate eum.
+                    Aliquam eratvolutpat. Done leo,..amus
+                    mbh augue praesent congue rutrum.
+                  </p>
+                  <hr>
+                </div>
+                  <div class="col-md-12 col-sm-6 col-xs-6 sm ">
+                    <img src="img/pics08.jpg" alt="">
+                    <p>Aliquam lacmo metus utelit.Suspendisse
+                      mauns nec lorem. Donec leo.
+                      vrvamus fermentum augue praeunt
+    
+                    </p>
+                    <hr>
+                  </div>
+  
+                  <div class="col-md-12 col-sm-6 col-xs-6 sm ">
+                    <img src="img/pics09.jpg" alt="">
+                    <p>Suspendisse srtamettellus eros
+                      bibendum condmentum. Donec leo. 
+                      termentum mbM1 augue praeseM a lacus
+                      congue rutmm
+                    </p>
+                    <hr>
+                  </div>
+  
+                   <div class="col-md-12 col-sm-6 col-xs-6 sm">
+                    <img src="img/pics10.jpg" alt="">
+                    <p>j,,i Aliquam lam. metusa ut elit.Suspendisse
+                      :.    ‘,    .acus mauis net lorn, °Gn leo.
+                      vivamush fermerntum augue pu..LEnaue LL.LrFrn•
+                    </p>
+                   </div>
+                   <br>
+                   <br>
+                   <br>
+  
+                  <button class="my-button rbt">Read More</button>
+             </div>
+             
             </div>
           </div>
         </div>
@@ -256,9 +281,11 @@
     <!-- two section ends -->
 
     <!-- footer -->
-    <div class="container">
-      <hr>
-      <p>Des, TEMPIATEDI ges, UnsplasM1,CCO,</p>
+    <div class="footer">
+      <div class="container">
+        <hr>
+        <p>Des, <span>TEMPIATEDI</span> ges, <span>UnsplasM1,CCO,</span></p>
+      </div>
     </div>
 
 
